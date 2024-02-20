@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>styl</title>
+<meta name="description" content="Oto moja kolejna strona na zajęciach">
+<meta name="keywords" content="szkoła, lekcje, temat, nauka, html">
+<meta name="author" content="Dominik Czogała">
+
+
+
+</head>
+<style>
+body { 
+ background : green; 
+ text-align : center; 
+ margin : 50px; 
+} 
+div { 
+ color : rgb(0,0,0); 
+ background : rgb(0,128,255); 
+ width : 400px; 
+ border : 3px black solid; 
+} 
+h1 { 
+ margin : 20px; 
+ border : 2px solid red; 
+ background : rgb(255,255,155); 
+} 
+<body>
+
+ 
+
+</body>
+</html>
