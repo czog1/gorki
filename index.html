@@ -25,6 +25,37 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
+.grower {
+  animation-name: grow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes grow {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(1.8);
+    background: darkturquoise;
+  }
+}
+
+/* Decorative styles */
+.grower {
+  width: 200px;
+  height: 80px;
+  background: lightseagreen;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  display: block;
+}
+
 </style>
 </head>
 <body>
@@ -33,6 +64,29 @@ p {
 <li><a href="/str/strony0_szablon/szkieletstrony.txt"> szkielet strony</a></li>
 <li><a href="/str/strona10/strona18_brzechwa.html"> brzechwa</a></li>
 </ol>
-<div class="pulser"></div>
+<main>
+      <div class="wrapper">
+        <article class="flow">
+          <h1>Named animation timing functions</h1>
+          <figure class="callout">
+            <p>
+              Use the dropdown to change timing function to see how much they affect the
+              overall animation.
+            </p>
+          </figure>
+          <label>
+            Change timing function
+            <select>
+              <option>linear</option>
+              <option>ease</option>
+              <option>ease-in</option>
+              <option>ease-out</option>
+              <option>ease-in-out</option>
+            </select>
+          </label>
+          <div class="grower"></div>
+        </article>
+      </div>
+    </main>
 </body>
 </html>
