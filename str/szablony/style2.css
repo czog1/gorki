@@ -1,0 +1,39 @@
+body
+{
+margin: 0;
+padding: 0;
+}
+#container
+{
+width: 750px;
+margin-left: auto;
+margin-right: auto; 
+border:1px solid black;
+} 
+#header
+{
+height: 150px;
+background: GhostWhite;
+}
+#left
+{
+width: 170px;
+float: left;
+background: Gainsboro;
+}
+#main
+{ 
+width: 170px
+float: left;
+background: LightGray;
+}
+#right
+{
+width: 580px;
+float: left;
+background: GoldenRod;
+}
+#footer
+{
+clear: both;
+background: LightPink;
