@@ -13,21 +13,21 @@ border:1px solid black;
 #header
 {
 height: 150px;
-background: #9CF;
+background: Brown;
 }
 #left
 {
 width: 170px;
 float: left;
-background: #ABC;
+background: AliceBlue;
 }
 #right
 {
 width: 580px;
 float: left;
-background: #9FF;
+background: DarkGrey;
 }
 #footer
 {
 clear: both;
-background: #999;
+background: HoneyDew;
