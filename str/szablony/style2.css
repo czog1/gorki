@@ -24,7 +24,7 @@ background: Gainsboro;
 #main
 { 
 width: 270px
-float: left;
+float: right;
 background: LightGray;
 }
 #right
