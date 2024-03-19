@@ -17,20 +17,20 @@ background: GhostWhite;
 }
 #left
 {
-width: 250px;
+width: 200px;
 float: left;
 background: Gainsboro;
 }
 #main
 { 
 width: 250px
-float: center;
+float: left;
 background: LightGray;
 }
 #right
 {
-width: 250px;
-float: right;
+width: 300px;
+float: left;
 background: GoldenRod;
 }
 #footer
