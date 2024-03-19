@@ -17,13 +17,13 @@ background: GhostWhite;
 }
 #left
 {
-width: 200px;
+width: 250px;
 float: left;
 background: Gainsboro;
 }
 #main
 { 
-width: 250px
+width: 200px
 float: left;
 background: LightGray;
 }
