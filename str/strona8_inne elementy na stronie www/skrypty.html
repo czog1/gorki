@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>nazwa</title>
+<meta name="description" content="Oto moja kolejna strona na zajęciach">
+<meta name="keywords" content="szkoła, lekcje, temat, nauka, html">
+<meta name="author" content="Dominik Czogała">
+
+
+
+</head>
+<body>
+   <select id="mySelect">
+      <option value="opcja1">opcja 1</option>
+      <option value="opcja2">opcja 2</option>
+      <option value="opcja3">opcja 3</option>
+    </select>
+    <button onclick="getSelectedValue()">Pobierz wybraną wartość</button>
+    <script>
+      function getSelectedValue() {
+        var select = document.getElementById("mySelect");
+        var selectedValue = select.value;
+        alert(selectedValue);
+      }
+    </script>
+<canvas id="myCanvas" width=320 height=480
+ style="background:url('https://github.com/czog1/gorki/blob/main/str/z.jpg');  background-size: 100%; height: 95% " >
+<script src="script.js"></script>
+ 
+
+</body>
+</html>
